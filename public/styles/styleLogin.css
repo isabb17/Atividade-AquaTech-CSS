@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+:root {
+    --azul: #32b9cd;
+    --amarela: #e3b062;
+    --cereja: #e4005A;
+}
+
+.header {
+    background-color: black;
+    border-bottom: 3px solid var(--azul);
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.titulo {
+    color: var(--azul);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    color: var(--amarela);
+    list-style: none;
+    width: 300px;
+}
+
+.navbar a {
+    color: var(--amarela);
+    text-decoration: none;
+}
+
+.agora {
+    font-weight: bolder;
+}
+
+.login .container {
+    height: 550px;
+    width: 100%;
+    background-image: url("../assets/imgs/bg-jelly-fish-para_outras_pags.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .card-card-login {
+    width: 700px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #dcdcdc;
+    border-radius: 16px;
+
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-card-login h2 {
+    margin-top: 25px;
+    color: #e4005b9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+
+.campo span {
+    color: var(--cereja);
+
+}
+
+.campo input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    font-size: 15px;
+    width: 500px;
+    height: 10px;
+    border: 2px solid var(--azul);
+    border-radius: 12px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.botao {
+    background-color: var(--cereja);
+    color: white;
+    font-size: 18px;
+    padding: 6px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer {
+    height: 100%;
+    background-color: var(--azul);
+}
+
+.footer .container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.footer h4 {
+    margin-bottom: 0;
+}
